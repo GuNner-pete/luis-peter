@@ -1,8 +1,33 @@
+body{
+    background-color: aqua;
+
+}
+#main{
+    background-color: rgb(128, 231, 175);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 100%;
+}
 a {
     align: center;
     width: 300px
 }
-
+#img-div{
+    background-color: azure;
+}
 p{
-    width: 300px;
+    text-align: center;
+    width: 90%;
+    /* margin-left: ; */
+}
+#image{
+    max-width: 100%;
+    display: block;
+    position: relative;
+    align-items: center;
+}
+#img-caption{
+    text-align: center;
+   
 }

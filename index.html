@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container">
+    <h1 id="title">Survey Form!</h1>
+
+    <p id="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <form action="" id="survey-form">
+        <div>  
+          <label id="name-label" for="name">Enter Your name</label>
+          <input class=" form-control " type="text" id="name" name="name" placeholder="enter your name" pattern="[A-Za-z]"  required>
+          <label id="email-label" for="email">Enter Your email</label>
+          <input class=" form-control"type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your email" required>
+          <label id="number-label" for="number">Enter number</label>
+          <input class=" form-control" type="number" name = "number" id="number"min="0" max='100' step="1" placeholder="Num" required>
+        </div>
+        
+        <h3>Select your favourite selection</h3>
+        <div class="divdrop">
+          <label for="dropdown">Select your option</label>
+
+          
+          <select name="dropdown" id="dropdown" aria-labelledby="dropdownMenuButton">
+            <option id="dropdown" value=""></option>
+            <option id="dropdown" value="">Option</option>
+            <option id="dropdown" value="">Option</option>
+          </select>
+        </div>
+        
+        <h3>Select your favourite radio</h3>
+        <div class="radios">
+          <input name="radio" type="radio" value="radio"> Mo</option>
+          <p></p>
+          <input name="radio" type="radio" value="radio"> Pete</option>
+        </div>
+        
+        <h3>Select one choice or both ?!</h3>
+
+      <div class="input-group-text">
+          <div>
+          <label for="check1">First choice</label>
+          <input name='check1' type="checkbox" value="like"  >
+        </div>
+          <div>
+          <label for="check2">Second choice</label>
+          <input name='check2' type="checkbox" value="dislike" >
+        </div>
+      </div>
+<br><br><br>
+      <h3>Comment section</h3>
+        <div>
+          <textarea class=" form-control" name="text" placeholder="write your comments here..." id="" cols="30" rows="10"></textarea>
+        </div> 
+
+        <button class="btn btn-success btn-block" type="submit" id="submit">Submit</button>
+    </form>
+
+  </div>
+
+
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>

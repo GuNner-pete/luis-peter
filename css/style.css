@@ -1,59 +1,8 @@
-body{
-    background-color: rgb(173, 173, 173);
+a {
+    align: center;
+    width: 300px
 }
 
-.container{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    padding: 30px;
-    background-color: whitesmoke;
-    border-radius: 30px;
-
-}
-div{
-    padding: 20px;
-    width: 100%;
-    
-}
-h1{
-    margin-bottom: 60px;
-    padding: 30px;
-    border-bottom: gray solid 1px;
-}
-h3{
-    margin-bottom: 60px;
-    padding: 30px;
-    border-bottom: gray solid 1px;
-}
-
-.form-control{
-    width: 100%;
-}
-
-form{
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-.input-group-text{
-    display: flex;
-    flex-flow: column;
-    padding: 0%;
-    margin: 0%;
-}
-.input-group-text div{
-padding: 5px;
-}
-.radios{
-    align-items: center;
-}
-.divdrop{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-#dropdown{
-
+p{
+    width: 300px;
 }
